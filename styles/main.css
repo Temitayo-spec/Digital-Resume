@@ -51,8 +51,9 @@ li {
 }
 
 #wrapper--main {
-  max-width: 700px;
+  max-width: 760px;
   margin: 0 auto;
+  padding: 1.5em;
 }
 
 .section--page {
@@ -155,6 +156,9 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  #wrapper--main {
+    padding: 1.5em;
+  }
   #wrapper--hero {
     flex-direction: column;
     text-align: center;
